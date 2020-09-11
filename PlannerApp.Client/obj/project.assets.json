@@ -14,6 +14,19 @@
           "lib/netstandard2.0/AKSoftware.WebApi.dll": {}
         }
       },
+      "Blazored.LocalStorage/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "3.1.6",
+          "Microsoft.AspNetCore.Components.Web": "3.1.6"
+        },
+        "compile": {
+          "lib/netstandard2.1/Blazored.LocalStorage.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Blazored.LocalStorage.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Authorization/3.1.6": {
         "type": "package",
         "dependencies": {
@@ -651,6 +664,19 @@
         "aksoftware.webapi.nuspec",
         "lib/netstandard2.0/AKSoftware.WebApi.dll",
         "license.txt"
+      ]
+    },
+    "Blazored.LocalStorage/3.0.0": {
+      "sha512": "eXpHDvog+nRvAFsrqVKqGrpHXuyPTH8tgAremHKbteP5nNEROlItfP8Xh8pNMpTovuQ4tl3NyfQcG0rnbjQ5jw==",
+      "type": "package",
+      "path": "blazored.localstorage/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "blazored.localstorage.3.0.0.nupkg.sha512",
+        "blazored.localstorage.nuspec",
+        "icon.png",
+        "lib/netstandard2.1/Blazored.LocalStorage.dll"
       ]
     },
     "Microsoft.AspNetCore.Authorization/3.1.6": {
@@ -2591,6 +2617,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.1": [
+      "Blazored.LocalStorage >= 3.0.0",
       "Microsoft.AspNetCore.Components.WebAssembly >= 3.2.1",
       "Microsoft.AspNetCore.Components.WebAssembly.Build >= 3.2.1",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 3.2.1",
@@ -2606,11 +2633,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pk1006\\source\\repos\\PlannerApp\\PlannerApp.Client\\PlannerApp.Client.csproj",
+      "projectUniqueName": "c:\\users\\pk1006\\source\\repos\\plannerapp\\PlannerApp.Client\\PlannerApp.Client.csproj",
       "projectName": "PlannerApp.Client",
-      "projectPath": "C:\\Users\\pk1006\\source\\repos\\PlannerApp\\PlannerApp.Client\\PlannerApp.Client.csproj",
+      "projectPath": "c:\\users\\pk1006\\source\\repos\\plannerapp\\PlannerApp.Client\\PlannerApp.Client.csproj",
       "packagesPath": "C:\\Users\\pk1006\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pk1006\\source\\repos\\PlannerApp\\PlannerApp.Client\\obj\\",
+      "outputPath": "c:\\users\\pk1006\\source\\repos\\plannerapp\\PlannerApp.Client\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -2629,8 +2656,8 @@
       "frameworks": {
         "netstandard2.1": {
           "projectReferences": {
-            "C:\\Users\\pk1006\\source\\repos\\PlannerApp\\PlannerApp.Shared\\PlannerApp.Shared.csproj": {
-              "projectPath": "C:\\Users\\pk1006\\source\\repos\\PlannerApp\\PlannerApp.Shared\\PlannerApp.Shared.csproj"
+            "c:\\users\\pk1006\\source\\repos\\plannerapp\\PlannerApp.Shared\\PlannerApp.Shared.csproj": {
+              "projectPath": "c:\\users\\pk1006\\source\\repos\\plannerapp\\PlannerApp.Shared\\PlannerApp.Shared.csproj"
             }
           }
         }
@@ -2644,6 +2671,10 @@
     "frameworks": {
       "netstandard2.1": {
         "dependencies": {
+          "Blazored.LocalStorage": {
+            "target": "Package",
+            "version": "[3.0.0, )"
+          },
           "Microsoft.AspNetCore.Components.WebAssembly": {
             "target": "Package",
             "version": "[3.2.1, )"

@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlannerApp.Client", "PlannerApp.Client\PlannerApp.Client.csproj", "{0E487A6F-5056-4540-B27C-84F5C29FB1A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlannerApp.Client", "PlannerApp.Client\PlannerApp.Client.csproj", "{0E487A6F-5056-4540-B27C-84F5C29FB1A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlannerApp.Shared", "PlannerApp.Shared\PlannerApp.Shared.csproj", "{07BDFED2-1E90-496C-873D-2B6A8B6A4928}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlannerApp.Shared", "PlannerApp.Shared\PlannerApp.Shared.csproj", "{07BDFED2-1E90-496C-873D-2B6A8B6A4928}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

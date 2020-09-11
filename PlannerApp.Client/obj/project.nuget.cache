@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "grCbKKgdCi7N3awaViw/cc9PFupOzPPzOtUExo54bibV+R5aDKCvSSn0Bz9dKgFePeRAqnSfmrSM+1xxtA3nqg==",
+  "dgSpecHash": "zJ7o/lpYzBPMGyGGd7JrwnTZS9fHrsoBxSn5S5D7NBOYfGzVUhRIR0B0PaFyYV+eILbcKZHfKe3XKQ3Bc96NAQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pk1006\\source\\repos\\PlannerApp\\PlannerApp.Client\\PlannerApp.Client.csproj",
+  "projectFilePath": "c:\\users\\pk1006\\source\\repos\\plannerapp\\PlannerApp.Client\\PlannerApp.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pk1006\\.nuget\\packages\\aksoftware.webapi\\3.0.1\\aksoftware.webapi.3.0.1.nupkg.sha512",
+    "C:\\Users\\pk1006\\.nuget\\packages\\blazored.localstorage\\3.0.0\\blazored.localstorage.3.0.0.nupkg.sha512",
     "C:\\Users\\pk1006\\.nuget\\packages\\microsoft.aspnetcore.authorization\\3.1.6\\microsoft.aspnetcore.authorization.3.1.6.nupkg.sha512",
     "C:\\Users\\pk1006\\.nuget\\packages\\microsoft.aspnetcore.components\\3.1.6\\microsoft.aspnetcore.components.3.1.6.nupkg.sha512",
     "C:\\Users\\pk1006\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\3.1.6\\microsoft.aspnetcore.components.analyzers.3.1.6.nupkg.sha512",
