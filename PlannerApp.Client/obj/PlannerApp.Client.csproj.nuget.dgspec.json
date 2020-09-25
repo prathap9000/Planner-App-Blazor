@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\users\\pk1006\\source\\repos\\plannerapp\\PlannerApp.Client\\PlannerApp.Client.csproj": {}
+    "C:\\Users\\pk1006\\source\\repos\\PlannerApp\\PlannerApp.Client\\PlannerApp.Client.csproj": {}
   },
   "projects": {
-    "c:\\users\\pk1006\\source\\repos\\plannerapp\\PlannerApp.Client\\PlannerApp.Client.csproj": {
+    "C:\\Users\\pk1006\\source\\repos\\PlannerApp\\PlannerApp.Client\\PlannerApp.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\users\\pk1006\\source\\repos\\plannerapp\\PlannerApp.Client\\PlannerApp.Client.csproj",
+        "projectUniqueName": "C:\\Users\\pk1006\\source\\repos\\PlannerApp\\PlannerApp.Client\\PlannerApp.Client.csproj",
         "projectName": "PlannerApp.Client",
-        "projectPath": "c:\\users\\pk1006\\source\\repos\\plannerapp\\PlannerApp.Client\\PlannerApp.Client.csproj",
+        "projectPath": "C:\\Users\\pk1006\\source\\repos\\PlannerApp\\PlannerApp.Client\\PlannerApp.Client.csproj",
         "packagesPath": "C:\\Users\\pk1006\\.nuget\\packages\\",
-        "outputPath": "c:\\users\\pk1006\\source\\repos\\plannerapp\\PlannerApp.Client\\obj\\",
+        "outputPath": "C:\\Users\\pk1006\\source\\repos\\PlannerApp\\PlannerApp.Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,8 +30,8 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "c:\\users\\pk1006\\source\\repos\\plannerapp\\PlannerApp.Shared\\PlannerApp.Shared.csproj": {
-                "projectPath": "c:\\users\\pk1006\\source\\repos\\plannerapp\\PlannerApp.Shared\\PlannerApp.Shared.csproj"
+              "C:\\Users\\pk1006\\source\\repos\\PlannerApp\\PlannerApp.Shared\\PlannerApp.Shared.csproj": {
+                "projectPath": "C:\\Users\\pk1006\\source\\repos\\PlannerApp\\PlannerApp.Shared\\PlannerApp.Shared.csproj"
               }
             }
           }
@@ -48,6 +48,10 @@
             "Blazored.LocalStorage": {
               "target": "Package",
               "version": "[3.0.0, )"
+            },
+            "Microsoft.AspNetCore.Components.Authorization": {
+              "target": "Package",
+              "version": "[3.1.8, )"
             },
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
@@ -91,14 +95,14 @@
         }
       }
     },
-    "c:\\users\\pk1006\\source\\repos\\plannerapp\\PlannerApp.Shared\\PlannerApp.Shared.csproj": {
+    "C:\\Users\\pk1006\\source\\repos\\PlannerApp\\PlannerApp.Shared\\PlannerApp.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\users\\pk1006\\source\\repos\\plannerapp\\PlannerApp.Shared\\PlannerApp.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\pk1006\\source\\repos\\PlannerApp\\PlannerApp.Shared\\PlannerApp.Shared.csproj",
         "projectName": "PlannerApp.Shared",
-        "projectPath": "c:\\users\\pk1006\\source\\repos\\plannerapp\\PlannerApp.Shared\\PlannerApp.Shared.csproj",
+        "projectPath": "C:\\Users\\pk1006\\source\\repos\\PlannerApp\\PlannerApp.Shared\\PlannerApp.Shared.csproj",
         "packagesPath": "C:\\Users\\pk1006\\.nuget\\packages\\",
-        "outputPath": "c:\\users\\pk1006\\source\\repos\\plannerapp\\PlannerApp.Shared\\obj\\",
+        "outputPath": "C:\\Users\\pk1006\\source\\repos\\PlannerApp\\PlannerApp.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
